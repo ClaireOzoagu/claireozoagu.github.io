@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BukkiBooks Case Study | Claire Ozoagu</title>
+  <meta name="description" content="How a weighted health score, segmentation and HubSpot automations catch silent churn earlier: a BukkiBooks Customer Success case study.">
+  <meta name="theme-color" content="#00001e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1'%3E%3Cstop offset='0' stop-color='%2300fc00'/%3E%3Cstop offset='1' stop-color='%2300fc00'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='32' cy='32' r='32' fill='url(%23g)'/%3E%3Ctext x='32' y='41' font-family='Arial' font-weight='700' font-size='24' text-anchor='middle' fill='%230b0d14'%3ECO%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-pill">
+    <a class="brand" href="index.html"><span class="brand-mark">CO</span><span class="brand-name">Claire Ozoagu</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#services">How I Help</a>
+      <a class="active" href="index.html#work">Work</a>
+      <a href="index.html#videos">Videos</a>
+      <a href="index.html#experience">Experience</a>
+      <a class="nav-cta" href="index.html#contact">Let's talk</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="cs-hero">
+  <div class="hero-grid"></div>
+  <span class="glow blue"></span>
+  <div class="container">
+    <a class="back" href="index.html#work">← All work</a>
+    <span class="kicker" style="display:flex"><b>Case study 01</b> Team project</span>
+    <h1>BukkiBooks: catching <em>silent churn.</em></h1>
+    <p class="lead">Okonkwo FinTech Solutions · Customer Success class project (Sub-Group 3). The customer in the case is Ihuoma Fashion House.</p>
+    <ul class="chips"><li>Health scoring</li><li>Segmentation</li><li>Automation</li><li>HubSpot</li><li>Slack</li><li>Google Sheets</li></ul>
+  </div>
+</section>
+
+<section class="cs-main">
+  <div class="container">
+    <div class="cs-video reveal">
+      <div class="video" data-video="bukkibooks"><a href="https://drive.google.com/file/d/1_bhiPb22aqJa0HzD7v4mmFnmR2TUX2sP/view">Watch the video</a></div>
+    </div>
+
+    <div class="cs-layout">
+      <aside class="cs-toc">
+        <span class="mono">On this page</span>
+        <a href="#case">The case</a>
+        <a href="#problem">The bigger problem</a>
+        <a href="#task">My task</a>
+        <a href="#process">What I built</a>
+        <a href="#health">Health score &amp; segments</a>
+        <a href="#scale">Why it scales</a>
+        <a href="#outcome">Outcome</a>
+      </aside>
+
+      <div class="cs-body">
+        <section id="case" class="reveal">
+          <h2><span class="n">01 — The case</span>A customer who looked active</h2>
+          <p>Ihuoma Fashion House runs 3 physical stores and an online shop, and had used BukkiBooks for 8 months. Customer Success Executive Chiamaka Nwosu reviews the usage dashboard weekly and notices that the business has stopped using the Inventory Reconciliation feature for 5 weeks.</p>
+          <p>A new store manager had never been trained on the feature, so staff went back to a manual spreadsheet. The customer hadn't left BukkiBooks: an important feature went unused because a new team member didn't know how to use it. Chiamaka arranges training, shares a guide, follows up and introduces the bulk-upload tool.</p>
+          <p>At year end, the founder, Emeka Ihuoma, renews and upgrades, explaining that he stayed because someone paid attention to how his business was using the product.</p>
+        </section>
+
+        <section id="problem" class="reveal">
+          <h2><span class="n">02 — The bigger problem</span>Activity isn't value</h2>
+          <p>A customer can look active while an important part of the product is no longer used.</p>
+          <div class="pull">The question is not "Is the customer using BukkiBooks?" but "Is the customer using BukkiBooks in a way that shows they are getting value from it?"</div>
+          <p>It is also a scalability problem. Customer Success can't manually check every customer's usage every week, so Okonkwo needs usage data to show which accounts need attention.</p>
+        </section>
+
+        <section id="task" class="reveal">
+          <h2><span class="n">03 — My task</span>What I set out to do</h2>
+          <ul>
+            <li>Research how fintech and SaaS companies serving Nigerian SMEs use product usage data to spot at-risk or under-served customers.</li>
+            <li>Design a scalable Customer Success process that finds accounts like Ihuoma earlier, without reviewing every account every week, using automation, segmentation and prioritisation.</li>
+            <li>Separate Customer Success activities from Support activities, and explain how the two teams should work together.</li>
+            <li>Identify at least one risk or limitation of relying on product usage data, and how Okonkwo could address it.</li>
+          </ul>
+        </section>
+
+        <section id="process" class="reveal">
+          <h2><span class="n">04 — What I built</span>A five-stage Customer Success process</h2>
+          <p>Each stage covers what the CSM does and how it played out in the Ihuoma Fashion House case.</p>
+          <div class="steps-v">
+            <div class="card"><span class="num">01</span><div>
+              <h3>Onboarding</h3>
+              <p>Sales hands the account to a CSM within 24 hours in HubSpot. Pre-boarding covers workspace setup, a welcome kit, stakeholder mapping and a technical readiness check. A kickoff call in days 1–3 sets goals and agrees what success looks like. Days 3–21 deliver role-based training for owners, managers and staff, with written guides, how-to videos and tracked milestones.</p>
+              <p class="applied"><b>In the case:</b> the new store manager joined mid-relationship and never went through this stage, so knowledge was lost when staff changed.</p>
+            </div></div>
+            <div class="card"><span class="num">02</span><div>
+              <h3>Adoption (day 21 onwards)</h3>
+              <p>Track whether customers use core features, not just log in. Nudge underused features with in-app tips or CSM outreach, and reinforce training after the first few weeks.</p>
+              <p class="applied"><b>In the case:</b> the team never adopted the bulk-upload tool and didn't know it existed.</p>
+            </div></div>
+            <div class="card"><span class="num">03</span><div>
+              <h3>Monitoring</h3>
+              <p>Track logins, transaction volume, feature usage and support tickets against each customer's own baseline. Score every account 0–100 and flag it automatically when a metric crosses a risk threshold.</p>
+              <p class="applied"><b>In the case:</b> the decline was noticed only after five weeks. With automation, the CSM gets an alert as soon as the risk appears.</p>
+            </div></div>
+            <div class="card"><span class="num">04</span><div>
+              <h3>Intervention</h3>
+              <p>Reach out proactively, investigate before assuming churn (bug, process change or training gap?), diagnose the root cause with the customer and deliver a targeted fix. Technical issues go to Support and adoption issues to the CSM, in parallel. Quarterly business reviews keep value visible.</p>
+              <p class="applied"><b>In the case:</b> the CSM found a training gap, retrained the new store manager, updated the champion contact and introduced bulk upload. Separately, Support fixed an unrelated invoicing bug within 24 hours.</p>
+            </div></div>
+            <div class="card"><span class="num">05</span><div>
+              <h3>Retention</h3>
+              <p>Confirm usage has recovered and stayed recovered, reinforce the value delivered to the decision-maker, feed the lesson back into onboarding, and time renewal conversations to when value is freshly proven.</p>
+              <p class="applied"><b>In the case:</b> stock-balancing activity resumed within 48 hours of training, and the relationship became multi-threaded across the team.</p>
+            </div></div>
+          </div>
+        </section>
+
+        <section id="health" class="reveal">
+          <h2><span class="n">05 — Health score &amp; segments</span>Knowing where to look first</h2>
+          <p>Usage signals (login and engagement frequency, feature adoption, transaction activity and support tickets) roll up into one weighted health score from 0 to 100, which tells the CSM which accounts to look at first.</p>
+          <div class="bands">
+            <div class="band g"><i></i><b>80–100</b>Healthy: strong engagement, adoption and usage</div>
+            <div class="band y"><i></i><b>50–79</b>Needs attention: some warning signals to monitor</div>
+            <div class="band r"><i></i><b>0–49</b>At risk: significant warning signals, intervene now</div>
+          </div>
+          <p>Accounts are segmented by touch level so effort goes where it matters:</p>
+          <div class="grid-3">
+            <div class="card"><h3>Low-touch</h3><p>Automated email guides, self-service resources and training videos.</p></div>
+            <div class="card"><h3>Medium-touch</h3><p>Automated alerts, training refreshers and periodic check-ins.</p></div>
+            <div class="card"><h3>High-touch</h3><p>Direct CSM attention for complex, multi-location accounts.</p></div>
+          </div>
+          <p>HubSpot automations turn warning signs into tasks for the CSM, and a KPI tracker and risk register keep the whole book of business visible.</p>
+        </section>
+
+        <section id="scale" class="reveal">
+          <h2><span class="n">06 — Why it scales</span>Automation finds it, a human fixes it</h2>
+          <ul>
+            <li>Monitoring and detection are automated, so CSMs don't check every account by hand.</li>
+            <li>Flagged accounts are prioritised by risk, business size and renewal date, so high-value at-risk accounts come first.</li>
+            <li>The system surfaces the issue, but the CSM validates the diagnosis. A dropped signal can mean a bug, a process change or a training gap, and each needs a different fix.</li>
+            <li>Every staff change at a customer becomes a proactive onboarding moment, closing the exact gap behind this case.</li>
+          </ul>
+          <div class="grid-3">
+            <div class="card"><h3>Support (reactive)</h3><p>Fixes an immediate customer problem, such as a bug.</p></div>
+            <div class="card"><h3>Customer Success (proactive)</h3><p>Prevents future problems and increases adoption.</p></div>
+          </div>
+        </section>
+
+        <section id="outcome" class="reveal">
+          <h2><span class="n">07 — Outcome</span>Flagged in days, not weeks</h2>
+          <p>In the case scenario, the account recovered within 48 hours of retraining, and the founder renewed and upgraded at year end. With the health score and automations in place, accounts like Ihuoma Fashion House are flagged in days rather than after five weeks.</p>
+          <p class="honest">This was a team class project based on a case scenario. The results above are part of the scenario, not measured client results.</p>
+        </section>
+
+        <a class="card next reveal" href="ijeoma-home-and-living.html">
+          <div><span class="mono">Next case study</span><h3>Ijeoma Home &amp; Living</h3></div>
+          <span class="btn btn-primary">Read it <span class="arrow">→</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer" style="margin-top:100px">
+  <div class="container">
+    <span>© <span id="year">2026</span> Amarachukwu (Claire) Ozoagu</span>
+    <a href="index.html">Back to portfolio</a>
+  </div>
+</footer>
+<script src="config.js"></script>
+<script src="site.js"></script>
+</body>
+</html>
