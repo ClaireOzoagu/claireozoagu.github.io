@@ -481,7 +481,7 @@ html, body { overflow-x: clip; }
 .frame-inner .hero-grid { opacity: .6; }
 .frame-inner > * { position: relative; z-index: 1; }
 .frame-inner h1 { font-size: clamp(3rem, 7vw, 5.6rem); letter-spacing: -0.05em; line-height: .92; margin: 6px 0 22px; }
-.frame-inner .first-name { font-family: var(--mono); font-size: .8rem; letter-spacing: .32em; text-transform: uppercase; color: #b9bcff; }
+.frame-inner .first-name { font-family: var(--sans); font-size: clamp(1.9rem, 4.2vw, 3.2rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1; text-transform: none; color: #fff; }
 .divider { display: flex; align-items: center; gap: 12px; margin: 0 0 18px; color: var(--lime); }
 .divider::before, .divider::after { content: ""; height: 1px; width: 56px; background: var(--line-strong); }
 .divider span { width: 8px; height: 8px; background: var(--lime); transform: rotate(45deg); box-shadow: 0 0 12px var(--lime); }

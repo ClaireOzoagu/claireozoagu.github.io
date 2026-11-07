@@ -22,7 +22,7 @@ window.SITE = {
     ijeoma: {
       url: "https://drive.google.com/file/d/1bYU436oq6e0n8YpJzwAwsUDDG6ciQQh0/view?usp=sharing",
       start: 0,
-      title: "Ijeoma Home & Living: customer journey in Zoho CRM (walkthrough)"
+      title: "Ijeoma Home & Living: customer journey walkthrough"
     }
   },
 
