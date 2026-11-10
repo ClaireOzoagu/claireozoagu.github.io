@@ -51,6 +51,15 @@
     if (a.hasAttribute("data-show-value")) a.textContent = val;
   });
 
+  // Calendly booking calendar: <div data-calendly></div>
+  document.querySelectorAll("[data-calendly]").forEach(function (box) {
+    var url = SITE.links.calendly;
+    if (!url) { var card = box.closest(".booking-card"); if (card) card.hidden = true; return; }
+    var src = url + (url.indexOf("?") > -1 ? "&" : "?") +
+      "hide_gdpr_banner=1&background_color=00002e&text_color=ffffff&primary_color=00fc00";
+    box.innerHTML = '<iframe src="' + src + '" title="Book a discovery call with Claire" loading="lazy"></iframe>';
+  });
+
   // Photo: show the placeholder until claire.jpg exists
   document.querySelectorAll("img[data-photo]").forEach(function (img) {
     var box = img.closest(".portrait");

@@ -41,7 +41,7 @@ window.SITE = {
   links: {
     email: "amarachukwuozoagu@gmail.com",
     linkedin: "https://www.linkedin.com/in/ozoagu-amarachukwu-claire-virtual-assistant/",
-    calendly: "https://calendly.com/amarachukwuozoagu/let-s-discuss-how-i-can-support-you",
+    calendly: "https://calendly.com/amarachukwuozoagu-/discovery-call",
     // Paste a shareable link to your CV (Google Drive "Anyone with the link") to show the CV button.
     cv: "",
     // Onboarding Playbook PDFs (Google Drive "Anyone with the link"). Leave "" to hide the button.
