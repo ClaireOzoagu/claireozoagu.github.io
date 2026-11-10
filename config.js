@@ -17,7 +17,7 @@ window.SITE = {
     // Onboarding Playbook short walkthrough (5:36). Paste the Google Drive link here
     // (sharing: "Anyone with the link") and it plays on the case study page.
     onboarding: {
-      url: "",
+      url: "https://drive.google.com/file/d/1naFyGKnu2FOcTd7AKQmIrqWdaFLG_JXt/view?usp=sharing",
       start: 0,
       title: "Customer Onboarding Playbook: short walkthrough"
     },
