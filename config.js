@@ -14,6 +14,18 @@
 */
 window.SITE = {
   videos: {
+    // Onboarding Playbook short walkthrough (5:36). Paste the Google Drive link here
+    // (sharing: "Anyone with the link") and it plays on the case study page.
+    onboarding: {
+      url: "",
+      start: 0,
+      title: "Customer Onboarding Playbook: short walkthrough"
+    },
+    onboardingFull: {
+      url: "https://youtu.be/M9QFbwyFA_M",
+      start: 0,
+      title: "Customer Onboarding Playbook: full walkthrough"
+    },
     bukkibooks: {
       url: "https://drive.google.com/file/d/1_bhiPb22aqJa0HzD7v4mmFnmR2TUX2sP/view?usp=drive_link",
       start: 0,
@@ -31,6 +43,9 @@ window.SITE = {
     linkedin: "https://www.linkedin.com/in/ozoagu-amarachukwu-claire-virtual-assistant/",
     calendly: "https://calendly.com/amarachukwuozoagu/let-s-discuss-how-i-can-support-you",
     // Paste a shareable link to your CV (Google Drive "Anyone with the link") to show the CV button.
-    cv: ""
+    cv: "",
+    // Onboarding Playbook PDFs (Google Drive "Anyone with the link"). Leave "" to hide the button.
+    onboardingCarousel: "",
+    onboardingCaseStudy: ""
   }
 };

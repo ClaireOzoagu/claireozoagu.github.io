@@ -23,7 +23,11 @@
   document.querySelectorAll("[data-video]").forEach(function (box) {
     var v = SITE.videos[box.getAttribute("data-video")];
     var info = videoInfo(v);
-    if (!info) { box.innerHTML = '<div class="video-soon">Video coming soon</div>'; return; }
+    if (!info) {
+      // Keep a poster (thumbnail) if the page has one, otherwise say "coming soon"
+      if (!box.querySelector(".video-poster")) box.innerHTML = '<div class="video-soon">Video coming soon</div>';
+      return;
+    }
     box.innerHTML =
       '<iframe src="' + info.embed + '" title="' + (v.title || "Video") + '" loading="lazy" ' +
       'allow="autoplay; encrypted-media; fullscreen; picture-in-picture" ' +
@@ -35,7 +39,7 @@
     var info = videoInfo(SITE.videos[a.getAttribute("data-video-link")]);
     if (!info) { a.hidden = true; return; }
     a.href = info.watch;
-    a.textContent = info.label;
+    if (!a.hasAttribute("data-keep-text")) a.textContent = info.label;
   });
 
   // Links: <a data-link="calendly">
