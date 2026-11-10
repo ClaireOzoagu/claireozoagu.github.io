@@ -46,6 +46,6 @@ window.SITE = {
     cv: "",
     // Onboarding Playbook PDFs (Google Drive "Anyone with the link"). Leave "" to hide the button.
     onboardingCarousel: "",
-    onboardingCaseStudy: ""
+    onboardingCaseStudy: "onboarding-playbook.pdf"
   }
 };
