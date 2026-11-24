@@ -40,7 +40,7 @@ window.SITE = {
 
   links: {
     email: "amarachukwuozoagu@gmail.com",
-    linkedin: "https://www.linkedin.com/in/ozoagu-amarachukwu-claire-virtual-assistant/",
+    linkedin: "https://www.linkedin.com/in/ozoagu-amarachukwu-claire-csm-tam/",
     calendly: "https://calendly.com/amarachukwuozoagu-/discovery-call",
     // Paste a shareable link to your CV (Google Drive "Anyone with the link") to show the CV button.
     cv: "",
