@@ -43,7 +43,7 @@ window.SITE = {
     linkedin: "https://www.linkedin.com/in/ozoagu-amarachukwu-claire-csm-tam/",
     calendly: "https://calendly.com/amarachukwuozoagu-/discovery-call",
     // Paste a shareable link to your CV (Google Drive "Anyone with the link") to show the CV button.
-    cv: "",
+    cv: "Amarachukwu_Ozoagu_CV.pdf",
     // Onboarding Playbook PDFs (Google Drive "Anyone with the link"). Leave "" to hide the button.
     onboardingCarousel: "",
     onboardingCaseStudy: "onboarding-playbook.pdf"
